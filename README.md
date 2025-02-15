@@ -41,7 +41,7 @@ python store_index.py
 python app.py
 
 
-Finally,open your browser and navigate to: localhost:6060
+Finally, open your browser and navigate to: localhost:6060
 
 ### Techstack Used:
 
