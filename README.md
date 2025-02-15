@@ -8,6 +8,7 @@ How to Run?
 #STEP 1: Clone the Repository
 
 git clone https://github.com/DeepthiMakineni/Nutrition-Assistant-Chatbot.git
+
 cd Nutrition-Assistant-Chatbot
 
 #STEP 2: Create a Conda Environment
