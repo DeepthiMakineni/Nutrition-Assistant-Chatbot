@@ -1,7 +1,9 @@
 # Nutrition-Assistant-Chatbot
 
 
-About the Project The Nutrition Assistant Chatbot is an AI-powered chatbot that helps users with dietary recommendations, nutritional facts, and meal planning based on their preferences and health goals. It leverages LangChain, OpenAI GPT, Flask, and Pinecone to deliver accurate and interactive responses.
+About the Project 
+
+The Nutrition Assistant Chatbot is an AI-powered chatbot that helps users with dietary recommendations, nutritional facts, and meal planning based on their preferences and health goals. It leverages LangChain, OpenAI GPT, Flask, and Pinecone to deliver accurate and interactive responses.
 
 How to Run?
 
