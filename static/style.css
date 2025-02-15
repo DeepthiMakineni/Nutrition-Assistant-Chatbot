@@ -1,0 +1,134 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	background: linear-gradient(to right, #131313, #1C1C1C);
+}
+
+.chat {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.card {
+	height: 550px;
+	border-radius: 15px !important;
+	background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.msg_card_body {
+	overflow-y: auto;
+	height: 450px;
+}
+
+.card-header {
+	border-radius: 15px 15px 0 0 !important;
+	background: linear-gradient(45deg, #2F80ED, #56CCF2);
+	color: white;
+	font-size: 18px;
+	padding: 15px;
+}
+
+.card-footer {
+	border-radius: 0 0 15px 15px !important;
+	background-color: #222831;
+}
+
+/* Header Styling */
+.user_info {
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header_title {
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.header_subtitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.type_msg {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	border: none !important;
+	color: white !important;
+	height: 55px !important;
+	font-size: 16px;
+}
+
+.type_msg:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.send_btn {
+	border-radius: 0 15px 15px 0 !important;
+	background: #1fab89 !important;
+	border: none !important;
+	color: white !important;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.send_btn:hover {
+	background: #62d69f !important;
+}
+
+.user_img {
+	height: 50px;
+	width: 50px;
+	border: 2px solid white;
+}
+
+.user_img_msg {
+	height: 35px;
+	width: 35px;
+	border: 2px solid white;
+}
+
+.msg_cotainer {
+	max-width: 60%;
+	border-radius: 20px;
+	background-color: #3579F6;
+	color: white;
+	padding: 12px;
+	position: relative;
+	font-size: 16px;
+}
+
+.msg_cotainer_send {
+	max-width: 60%;
+	border-radius: 20px;
+	background-color: #54B589;
+	color: white;
+	padding: 12px;
+	position: relative;
+	font-size: 16px;
+}
+
+.msg_time {
+	position: absolute;
+	left: 10px;
+	bottom: -18px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 10px;
+}
+
+.msg_time_send {
+	position: absolute;
+	right: 10px;
+	bottom: -18px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 10px;
+}
+
+@media (max-width: 576px) {
+	.chat {
+			width: 95% !important;
+	}
+}
